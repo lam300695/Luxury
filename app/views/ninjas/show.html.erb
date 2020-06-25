@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @ninja.name %>
+</p>
+
+<p>
+  <strong>Skin:</strong>
+  <%= @ninja.skin %>
+</p>
+
+<%= link_to 'Edit', edit_ninja_path(@ninja) %> |
+<%= link_to 'Back', ninjas_path %>
